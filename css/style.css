@@ -112,8 +112,6 @@ body {
 }
 .data__container {
 }
-.container {
-}
 .data__content {
 	padding: 104px 0px 107px 0px;
 }
@@ -180,4 +178,80 @@ body {
 	margin: 0px 0px 111px 0px;
 }
 .icon__star {
+}
+.portfolio {
+	background-color: #F6F6F6;
+}
+.portfolio__container {
+}
+.container {
+}
+.portfolio__content {
+	padding: 112px 0px 96px 0px;
+}
+.portfolio__title {
+	font-family: 'Gilroy-Bold';
+	font-size: 34px;
+	line-height: 42px;
+	margin: 0px 0px 47px 0px;
+}
+.portfolio__image:not(:last-child) {
+	margin: 0px 0px 100px 0px;
+}
+.portfolio__image img {
+	margin: 0px 0px 45px 0px;
+}
+.portfolio__link {
+	font-size: 18px;
+	line-height: 22px;
+	text-decoration-line: underline;
+	color: #070707;
+}
+.portfolio__link {
+}
+.contacts {
+}
+.contacts__content {
+	padding: 114px 0px 123px 0px;
+}
+.contacts__title {
+	font-family: 'Gilroy-Bold';
+	font-size: 34px;
+	line-height: 42px;
+	margin: 0px 0px 20px 0px;
+}
+.contacts__subtitle {
+	max-width: 280px;
+	font-size: 18px;
+	line-height: 22px;
+	margin: 0px auto 30px auto;
+}
+.contacts__button {
+	width: 180px;
+	height: 42px;
+	font-family: 'Gilroy-Bold';
+	font-size: 18px;
+	line-height: 22px;
+	color: #fff;
+	background-color: #070707;
+	border-radius: 21px;
+	box-shadow: 0px 0px 3px 0px #070707;
+	padding: 9px 0px 10px 0px;
+	margin: 0px auto 85px auto;
+}
+.contacts__icons {
+	max-width: 340px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0px auto 45px auto;
+}
+.contacts__icon {
+}
+.contacts__copy {
+	max-width: 245px;
+	font-family: 'Gilroy-Medium';
+	font-size: 14px;
+	line-height: 17px;
+	color: #828282;
+	margin: 0px auto;
 }
