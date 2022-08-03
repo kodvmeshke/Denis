@@ -47,7 +47,7 @@ body {
 .header {
 	margin: 0px 0px 39.69px 0px;
 }
-.container {
+.header__container {
 	max-width: 943.61px;
 	margin: 0px auto;
 	padding: 0px 15px;
@@ -69,11 +69,11 @@ body {
 	font-family: 'Gilroy-Bold';
 	color: #070707;
 }
-.discription {
-}
 .discription__container {
-}
-.container {
+	max-width: 943.61px;
+	margin: 0px auto;
+	padding: 0px 15px;
+	box-sizing: content-box;
 }
 .discription__content {
 	display: flex;
@@ -111,6 +111,10 @@ body {
 	margin: 0px 0px 91px 0px;
 }
 .data__container {
+	max-width: 943.61px;
+	margin: 0px auto;
+	padding: 0px 15px;
+	box-sizing: content-box;
 }
 .data__content {
 	padding: 104px 0px 107px 0px;
@@ -131,11 +135,11 @@ body {
 .data__subtitle p:not(:last-child) {
 	margin: 0px 0px 45px 0px;
 }
-.skills {
-}
 .skills__container {
-}
-.container {
+	max-width: 943.61px;
+	margin: 0px auto;
+	padding: 0px 15px;
+	box-sizing: content-box;
 }
 .skills__title {
 	font-family: 'Gilroy-Bold';
@@ -177,14 +181,14 @@ body {
 	justify-content: center;
 	margin: 0px 0px 111px 0px;
 }
-.icon__star {
-}
 .portfolio {
 	background-color: #F6F6F6;
 }
 .portfolio__container {
-}
-.container {
+	max-width: 943.61px;
+	margin: 0px auto;
+	padding: 0px 15px;
+	box-sizing: content-box;
 }
 .portfolio__content {
 	padding: 112px 0px 96px 0px;
@@ -207,9 +211,11 @@ body {
 	text-decoration-line: underline;
 	color: #070707;
 }
-.portfolio__link {
-}
-.contacts {
+.contacts__container {
+	max-width: 943.61px;
+	margin: 0px auto;
+	padding: 0px 15px;
+	box-sizing: content-box;
 }
 .contacts__content {
 	padding: 114px 0px 123px 0px;
@@ -244,8 +250,6 @@ body {
 	display: flex;
 	justify-content: space-between;
 	margin: 0px auto 45px auto;
-}
-.contacts__icon {
 }
 .contacts__copy {
 	max-width: 245px;
